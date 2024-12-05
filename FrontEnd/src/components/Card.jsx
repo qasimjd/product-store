@@ -112,7 +112,7 @@ const Card = ({ item }) => {
                     document.getElementById(`modal_${item._id}`).close()
                   }
                 >
-                  Close
+                  Close-
                 </button>
               </div>
             </div>
