@@ -1,0 +1,26 @@
+{
+  "name": "db-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "dev": "cross-env NODE_ENV=development nodemon BackEnd/server.js",
+  "build": "npm install && npm install --prefix FrontEnd && npm run build --prefix FrontEnd",
+  "start": "cross-env NODE_ENV=production node BackEnd/server.js"
+},
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "nodemon": "^3.1.7",
+    "vite": "^6.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
